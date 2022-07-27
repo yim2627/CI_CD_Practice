@@ -1,7 +1,7 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <testsuites name='CI_CD_PracticeTests.xctest' tests='2' failures='0'>
   <testsuite name='CI_CD_PracticeTests.CI_CD_PracticeTests' tests='2' failures='0'>
-    <testcase classname='CI_CD_PracticeTests.CI_CD_PracticeTests' name='testExample' time='0.017'/>
-    <testcase classname='CI_CD_PracticeTests.CI_CD_PracticeTests' name='testPerformanceExample' time='0.664'/>
+    <testcase classname='CI_CD_PracticeTests.CI_CD_PracticeTests' name='testExample' time='0.012'/>
+    <testcase classname='CI_CD_PracticeTests.CI_CD_PracticeTests' name='testPerformanceExample' time='0.461'/>
   </testsuite>
 </testsuites>
