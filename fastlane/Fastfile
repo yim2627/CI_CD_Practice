@@ -22,7 +22,7 @@ platform :ios do
 
     run_tests(scheme: "CI_CD_Practice",
 	      device: "iPhone 13",
-              reset_simulator: true,
+	      force_quit_simulator: true,
 	      clean: true)
   end
 end
