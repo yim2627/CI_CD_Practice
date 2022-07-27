@@ -11,7 +11,7 @@
 #
 
 # Uncomment the line if you want fastlane to automatically update itself
-# update_fastlane
+update_fastlane
 
 default_platform(:ios)
 
@@ -20,9 +20,9 @@ platform :ios do
   lane :tests do
     xcode_select("/Applications/Xcode.app")
 
-    run_tests(project: "CI_CD_Practice.xcodeproj",
-	      scheme: "CI_CD_Practice",
+    run_tests(scheme: "CI_CD_Practice",
 	      device: "iPhone 13",
+              reset_simulator: true,
 	      clean: true)
   end
 end
