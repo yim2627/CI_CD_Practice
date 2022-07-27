@@ -20,6 +20,7 @@ platform :ios do
 
   lane :tests do
     run_tests(scheme: "CI_CD_Practice",
+	      derived_data_path: "/Users/limjiseong/Library/Developer/Xcode/DerivedData"
               device: "iPhone 13",
 	      clean: true)
   end
