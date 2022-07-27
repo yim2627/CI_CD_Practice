@@ -19,7 +19,6 @@ platform :ios do
   desc "Test"
   lane :tests do
     run_tests(scheme: "CI_CD_Practice",
-	      force_quit_simulator: true,
 	      clean: true)
   end
 end
