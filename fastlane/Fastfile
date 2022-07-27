@@ -22,6 +22,7 @@ platform :ios do
 
     run_tests(project: "CI_CD_Practice.xcodeproj",
 	      scheme: "CI_CD_Practice",
-	      devices: ["iPhone 13"])
+	      device: "iPhone 13",
+	      clean: true)
   end
 end
