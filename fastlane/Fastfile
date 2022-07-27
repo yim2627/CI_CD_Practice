@@ -18,10 +18,7 @@ default_platform(:ios)
 platform :ios do
   desc "Test"
   lane :tests do
-    xcode_select("/Applications/Xcode.app")
-
     run_tests(scheme: "CI_CD_Practice",
-	      device: "iPhone 13",
 	      force_quit_simulator: true,
 	      clean: true)
   end
