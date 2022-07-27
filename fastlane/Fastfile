@@ -17,7 +17,7 @@ default_platform(:ios)
 
 platform :ios do
   desc "Test"
-  test
+
   lane :tests do
     run_tests(scheme: "CI_CD_Practice",
               device: "iPhone 13",
