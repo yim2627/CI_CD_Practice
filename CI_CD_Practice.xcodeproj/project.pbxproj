@@ -14,19 +14,10 @@
 		A6A1616928910A18004E742F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A6A1616828910A18004E742F /* Assets.xcassets */; };
 		A6A1616C28910A18004E742F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6A1616A28910A18004E742F /* LaunchScreen.storyboard */; };
 		A6A1617728910A19004E742F /* CI_CD_PracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1617628910A19004E742F /* CI_CD_PracticeTests.swift */; };
-		A6A1618128910A19004E742F /* CI_CD_PracticeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1618028910A19004E742F /* CI_CD_PracticeUITests.swift */; };
-		A6A1618328910A19004E742F /* CI_CD_PracticeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6A1618228910A19004E742F /* CI_CD_PracticeUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
 		A6A1617328910A19004E742F /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = A6A1615428910A16004E742F /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = A6A1615B28910A16004E742F;
-			remoteInfo = CI_CD_Practice;
-		};
-		A6A1617D28910A19004E742F /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = A6A1615428910A16004E742F /* Project object */;
 			proxyType = 1;
@@ -46,9 +37,6 @@
 		A6A1616D28910A18004E742F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6A1617228910A19004E742F /* CI_CD_PracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CI_CD_PracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A6A1617628910A19004E742F /* CI_CD_PracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CI_CD_PracticeTests.swift; sourceTree = "<group>"; };
-		A6A1617C28910A19004E742F /* CI_CD_PracticeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CI_CD_PracticeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		A6A1618028910A19004E742F /* CI_CD_PracticeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CI_CD_PracticeUITests.swift; sourceTree = "<group>"; };
-		A6A1618228910A19004E742F /* CI_CD_PracticeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CI_CD_PracticeUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,13 +54,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6A1617928910A19004E742F /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -81,7 +62,6 @@
 			children = (
 				A6A1615E28910A16004E742F /* CI_CD_Practice */,
 				A6A1617528910A19004E742F /* CI_CD_PracticeTests */,
-				A6A1617F28910A19004E742F /* CI_CD_PracticeUITests */,
 				A6A1615D28910A16004E742F /* Products */,
 			);
 			sourceTree = "<group>";
@@ -91,7 +71,6 @@
 			children = (
 				A6A1615C28910A16004E742F /* CI_CD_Practice.app */,
 				A6A1617228910A19004E742F /* CI_CD_PracticeTests.xctest */,
-				A6A1617C28910A19004E742F /* CI_CD_PracticeUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -116,15 +95,6 @@
 				A6A1617628910A19004E742F /* CI_CD_PracticeTests.swift */,
 			);
 			path = CI_CD_PracticeTests;
-			sourceTree = "<group>";
-		};
-		A6A1617F28910A19004E742F /* CI_CD_PracticeUITests */ = {
-			isa = PBXGroup;
-			children = (
-				A6A1618028910A19004E742F /* CI_CD_PracticeUITests.swift */,
-				A6A1618228910A19004E742F /* CI_CD_PracticeUITestsLaunchTests.swift */,
-			);
-			path = CI_CD_PracticeUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -165,24 +135,6 @@
 			productReference = A6A1617228910A19004E742F /* CI_CD_PracticeTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A6A1617B28910A19004E742F /* CI_CD_PracticeUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = A6A1618C28910A19004E742F /* Build configuration list for PBXNativeTarget "CI_CD_PracticeUITests" */;
-			buildPhases = (
-				A6A1617828910A19004E742F /* Sources */,
-				A6A1617928910A19004E742F /* Frameworks */,
-				A6A1617A28910A19004E742F /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				A6A1617E28910A19004E742F /* PBXTargetDependency */,
-			);
-			name = CI_CD_PracticeUITests;
-			productName = CI_CD_PracticeUITests;
-			productReference = A6A1617C28910A19004E742F /* CI_CD_PracticeUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -197,10 +149,6 @@
 						CreatedOnToolsVersion = 13.3;
 					};
 					A6A1617128910A19004E742F = {
-						CreatedOnToolsVersion = 13.3;
-						TestTargetID = A6A1615B28910A16004E742F;
-					};
-					A6A1617B28910A19004E742F = {
 						CreatedOnToolsVersion = 13.3;
 						TestTargetID = A6A1615B28910A16004E742F;
 					};
@@ -221,7 +169,6 @@
 			targets = (
 				A6A1615B28910A16004E742F /* CI_CD_Practice */,
 				A6A1617128910A19004E742F /* CI_CD_PracticeTests */,
-				A6A1617B28910A19004E742F /* CI_CD_PracticeUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -238,13 +185,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		A6A1617028910A19004E742F /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A6A1617A28910A19004E742F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -272,15 +212,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A6A1617828910A19004E742F /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A6A1618328910A19004E742F /* CI_CD_PracticeUITestsLaunchTests.swift in Sources */,
-				A6A1618128910A19004E742F /* CI_CD_PracticeUITests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -288,11 +219,6 @@
 			isa = PBXTargetDependency;
 			target = A6A1615B28910A16004E742F /* CI_CD_Practice */;
 			targetProxy = A6A1617328910A19004E742F /* PBXContainerItemProxy */;
-		};
-		A6A1617E28910A19004E742F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = A6A1615B28910A16004E742F /* CI_CD_Practice */;
-			targetProxy = A6A1617D28910A19004E742F /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -526,42 +452,6 @@
 			};
 			name = Release;
 		};
-		A6A1618D28910A19004E742F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RL265827ML;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "limjs.CI-CD-PracticeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CI_CD_Practice;
-			};
-			name = Debug;
-		};
-		A6A1618E28910A19004E742F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = RL265827ML;
-				GENERATE_INFOPLIST_FILE = YES;
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "limjs.CI-CD-PracticeUITests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = CI_CD_Practice;
-			};
-			name = Release;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -588,15 +478,6 @@
 			buildConfigurations = (
 				A6A1618A28910A19004E742F /* Debug */,
 				A6A1618B28910A19004E742F /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		A6A1618C28910A19004E742F /* Build configuration list for PBXNativeTarget "CI_CD_PracticeUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				A6A1618D28910A19004E742F /* Debug */,
-				A6A1618E28910A19004E742F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
