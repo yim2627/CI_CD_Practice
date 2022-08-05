@@ -21,8 +21,7 @@ class ViewController: UIViewController {
         print("Hello12312331233ddddwqdeddddddddddd")
         print("Hello12312331233ddddwqdeddddddddddd")
         print("Hello12312331233ddddwqdeddddddddddd")
-        print("Hello12312331233ddddwqdeddddddddddd")
-        print("Hello12312331233ddddwqdeddddddddddd")
+        
 
     }
 
