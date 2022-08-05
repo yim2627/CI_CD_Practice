@@ -17,6 +17,8 @@ class ViewController: UIViewController {
         ddddddddddd
         dddd
         posix_spawn_file_actions_adddup2(<#T##posix_spawn_file_actions_t#>, <#T##Int32#>, <#T##Int32#>)
+        
+        ddddddd
     }
 
 
